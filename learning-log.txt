@@ -1,0 +1,5 @@
+created 4/12/2020   12:51 pm Friday
+
+ok before i sleep i should write my first code here xD
+
+1- C++ Program to find sum of elements in a given array
