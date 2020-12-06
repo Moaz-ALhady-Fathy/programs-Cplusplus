@@ -1,0 +1,23 @@
+//3-C++ program to linearly search an element in a given array
+
+
+#include"iostream"
+
+int arr[10] = { 1,5,4,8,3,6,7,5,11,2};    // the given array
+int found_num;    //the number you need to search in the array
+
+int main()
+{
+	int i,var;
+
+	std::cin >> found_num;
+	for (i = 0 ; i < 10; i++)
+	{
+		if (arr[i] == found_num)
+		{
+			var = i;
+		}
+	}
+	std::cout << "your number " << found_num << " was in " << var << "    " << i ;
+	std::cin.get();
+}
